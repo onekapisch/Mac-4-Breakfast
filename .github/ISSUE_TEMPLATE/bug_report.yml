@@ -7,7 +7,7 @@ body:
     id: version
     attributes:
       label: App version
-      description: Open the menu-bar popover — the version is shown at the bottom.
+      description: Open the menu-bar popover; the version is shown at the bottom.
       placeholder: "e.g. 0.2.3"
     validations:
       required: true

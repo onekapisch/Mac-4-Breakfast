@@ -2,7 +2,7 @@
 
 Mac 4 Breakfast is built local-first. This document describes what data the app touches, what leaves your Mac (almost nothing), and how to report a security issue.
 
-## Data flow — what's sent where
+## Data flow: what's sent where
 
 **Nothing about your battery, your usage, or your device ever leaves your Mac.** The app has no analytics SDK, no account system, and no server of its own.
 
@@ -18,7 +18,7 @@ That's the complete list of network activity: **(1)** a one-time license activat
 
 ## Telemetry
 
-**None.** No usage analytics, no crash-reporting SDK, no tracking or fingerprinting. We don't know which features you use — by design.
+**None.** No usage analytics, no crash-reporting SDK, no tracking or fingerprinting. We don't know which features you use, by design.
 
 ## Code signing & notarization
 
@@ -26,4 +26,4 @@ Every release is signed with an Apple **Developer ID** certificate, **notarized 
 
 ## Reporting a vulnerability
 
-Found a security issue? Please email **kapisch@icloud.com** with details and steps to reproduce — **don't** open a public issue for security problems. We'll acknowledge within a few days and keep you updated through the fix.
+Found a security issue? Please email **kapisch@icloud.com** with details and steps to reproduce. Please don't open a public issue for security problems. We'll acknowledge within a few days and keep you updated through the fix.
