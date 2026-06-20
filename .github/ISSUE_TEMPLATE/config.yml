@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Email support
+    url: mailto:kapisch@icloud.com
+    about: Account, license, or anything that isn't a bug or feature request.
+  - name: 🌐 Website & download
+    url: https://www.mac4breakfast.app
+    about: Features, pricing, and the latest download.

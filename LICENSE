@@ -1,0 +1,18 @@
+Copyright (c) 2026 Aeon GbR. All rights reserved.
+
+Mac 4 Breakfast is proprietary, closed-source software. This repository contains
+documentation, release notes, and the issue tracker ONLY. It does not contain the
+application's source code, and nothing in this repository grants any license to the
+Mac 4 Breakfast application.
+
+The Mac 4 Breakfast application is licensed, not sold, and its use is governed by the
+End User License Agreement and Terms available at https://www.mac4breakfast.app. Except
+as permitted by that agreement or by applicable law, you may not copy, modify,
+distribute, sublicense, reverse-engineer, decompile, or create derivative works of the
+application.
+
+The documentation in this repository (README, CHANGELOG, SECURITY, and issue templates)
+may be quoted with attribution for the purpose of describing, reviewing, or citing the
+product.
+
+"Mac 4 Breakfast" and the Mac 4 Breakfast logo are trademarks of Aeon GbR.

@@ -1,0 +1,26 @@
+name: ✨ Feature request
+description: Suggest an idea or improvement for Mac 4 Breakfast
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What's the problem or use case?
+      description: What are you trying to do that's hard or missing today?
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: How would you like it to work?
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: App version (optional)
+      placeholder: "e.g. 0.2.3"
+    validations:
+      required: false
