@@ -2,6 +2,14 @@
 
 All notable changes to Mac 4 Breakfast. Format based on [Keep a Changelog](https://keepachangelog.com/). **[⬇️ Download the latest](https://www.mac4breakfast.app)**
 
+## [0.3.9] - 2026-07-23
+### Changed
+- **Meet your Energy Hero.** The power card is now a rich, glowing panel with a luminous charge line. While you're plugged in, it breathes gently, like the sleep light on older Macs.
+- **A warmer Keep Awake.** The Keep Awake control gets a rich gold finish with a soft gloss, easier to spot and nicer to tap.
+- **Genuinely great in Light Mode.** Every tab was rebuilt with real contrast and depth in Light Mode: no more washed-out colors or hard-to-read text.
+### Fixed
+- The Battery Health chart on the History tab no longer tints the area below the plot.
+
 ## [0.3.8] - 2026-07-22
 ### Changed
 - **Keep Awake, reimagined.** Choose Off, Screen, or Lid Closed in a single tap, with the lid-closed thermal/battery safety net built right in. Replaces the old separate Keep Awake toggle and Wide Awake setup.
@@ -75,6 +83,7 @@ All notable changes to Mac 4 Breakfast. Format based on [Keep a Changelog](https
 ### Added
 - **Smart Alerts:** intelligent battery notifications that drop from the notch (unplug reminder, predictive low-battery, overheating).
 
+[0.3.9]: https://www.mac4breakfast.app
 [0.3.8]: https://www.mac4breakfast.app
 [0.3.7]: https://www.mac4breakfast.app
 [0.3.6]: https://www.mac4breakfast.app
