@@ -2,6 +2,14 @@
 
 All notable changes to Mac 4 Breakfast. Format based on [Keep a Changelog](https://keepachangelog.com/). **[⬇️ Download the latest](https://www.mac4breakfast.app)**
 
+## [0.3.11] - 2026-07-25
+### Fixed
+- **Your menu-bar metrics are back.** The percentage and your second metric could be cut off in the menu bar, leaving just the icon. The menu-bar item now sizes itself to whatever you have chosen to show. (A regression introduced in 0.3.10.)
+
+## [0.3.10] - 2026-07-25
+### Fixed
+- **The menu-bar icon can no longer disappear.** After sleeping with the lid closed, or unplugging a monitor, the icon could vanish from the menu bar while the app kept running, with no way back except force-quitting it. Mac 4 Breakfast now looks after its own menu-bar icon and puts it straight back if macOS clears it away.
+
 ## [0.3.9] - 2026-07-23
 ### Changed
 - **Meet your Energy Hero.** The power card is now a rich, glowing panel with a luminous charge line. While you're plugged in, it breathes gently, like the sleep light on older Macs.
@@ -83,6 +91,8 @@ All notable changes to Mac 4 Breakfast. Format based on [Keep a Changelog](https
 ### Added
 - **Smart Alerts:** intelligent battery notifications that drop from the notch (unplug reminder, predictive low-battery, overheating).
 
+[0.3.11]: https://www.mac4breakfast.app
+[0.3.10]: https://www.mac4breakfast.app
 [0.3.9]: https://www.mac4breakfast.app
 [0.3.8]: https://www.mac4breakfast.app
 [0.3.7]: https://www.mac4breakfast.app
