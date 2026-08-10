@@ -2,6 +2,23 @@
 
 All notable changes to Mac 4 Breakfast. Format based on [Keep a Changelog](https://keepachangelog.com/). **[⬇️ Download the latest](https://www.mac4breakfast.app)**
 
+## [0.3.14] - 2026-08-10
+### Fixed
+- **No more absurd time estimates.** macOS's own time-remaining is a rolling average that can lag far behind, showing 20 hours while you draw 13 watts. The app now cross-checks it against your live power draw and shows its own calculation when they disagree badly.
+- **Sharper low-battery warnings.** The predictive alert uses the same corrected estimate, so a stale number can no longer delay a warning.
+
+## [0.3.13] - 2026-08-06
+### Fixed
+- **No more background battery use.** Once the panel had been opened, an animation kept running invisibly behind it and quietly used CPU until the app was quit. Closing the panel now frees everything.
+### Changed
+- The panel now always opens on the Mac tab, instead of wherever you left it last.
+
+## [0.3.12] - 2026-07-26
+### Fixed
+- **No more cut-off menu.** With the menu bar icon near the right edge of the screen, the panel could open past the edge and lose its last tab and buttons. It now always positions itself to fit.
+### Changed
+- Hold Command and drag the icon to move it anywhere in your menu bar. It stays where you put it.
+
 ## [0.3.11] - 2026-07-25
 ### Fixed
 - **Your menu-bar metrics are back.** The percentage and your second metric could be cut off in the menu bar, leaving just the icon. The menu-bar item now sizes itself to whatever you have chosen to show. (A regression introduced in 0.3.10.)
@@ -91,6 +108,9 @@ All notable changes to Mac 4 Breakfast. Format based on [Keep a Changelog](https
 ### Added
 - **Smart Alerts:** intelligent battery notifications that drop from the notch (unplug reminder, predictive low-battery, overheating).
 
+[0.3.14]: https://www.mac4breakfast.app
+[0.3.13]: https://www.mac4breakfast.app
+[0.3.12]: https://www.mac4breakfast.app
 [0.3.11]: https://www.mac4breakfast.app
 [0.3.10]: https://www.mac4breakfast.app
 [0.3.9]: https://www.mac4breakfast.app
