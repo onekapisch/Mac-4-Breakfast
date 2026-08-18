@@ -2,6 +2,13 @@
 
 All notable changes to Mac 4 Breakfast. Format based on [Keep a Changelog](https://keepachangelog.com/). **[⬇️ Download the latest](https://www.mac4breakfast.app)**
 
+## [0.3.15] - 2026-08-18
+### Fixed
+- **The menu-bar panel closes when you tell it to.** Clicking the icon while the panel was open could leave it sitting there, so it never quite worked as a toggle. The click that should close it now closes it.
+- **No more blank panel.** Opening the panel again straight after closing it could show an empty window. The old panel was being tidied away a moment too late and took the new one's contents with it.
+### Changed
+- The $4.99 launch price ends on 31 August; Pro then returns to its regular $9.99. Licenses already purchased are unaffected.
+
 ## [0.3.14] - 2026-08-10
 ### Fixed
 - **No more absurd time estimates.** macOS's own time-remaining is a rolling average that can lag far behind, showing 20 hours while you draw 13 watts. The app now cross-checks it against your live power draw and shows its own calculation when they disagree badly.
@@ -108,6 +115,7 @@ All notable changes to Mac 4 Breakfast. Format based on [Keep a Changelog](https
 ### Added
 - **Smart Alerts:** intelligent battery notifications that drop from the notch (unplug reminder, predictive low-battery, overheating).
 
+[0.3.15]: https://www.mac4breakfast.app
 [0.3.14]: https://www.mac4breakfast.app
 [0.3.13]: https://www.mac4breakfast.app
 [0.3.12]: https://www.mac4breakfast.app
