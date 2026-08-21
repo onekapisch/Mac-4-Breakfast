@@ -2,6 +2,12 @@
 
 All notable changes to Mac 4 Breakfast. Format based on [Keep a Changelog](https://keepachangelog.com/). **[⬇️ Download the latest](https://www.mac4breakfast.app)**
 
+## [0.3.16] - 2026-08-21
+### Changed
+- **The menu-bar panel was rebuilt from the ground up.** We replaced the system piece behind the dropdown with one we control ourselves, for better reliability going forward. If you're on the current release of macOS, nothing looks or feels different — it works exactly as it did before.
+### Note
+- **A note for macOS 27 beta testers.** If you're on the current release of macOS, this doesn't apply to you. On this year's macOS beta, the dropdown can briefly look slightly cropped or unaligned for a second or two before settling into place. It's a growing pain from a real change Apple made to how the menu bar itself works this cycle, and it's affecting several menu-bar apps right now, not just this one. Nothing is broken and nothing you do is at risk — it's purely visual, purely on the beta, and we expect it to improve as the beta matures.
+
 ## [0.3.15] - 2026-08-18
 ### Fixed
 - **The menu-bar panel closes when you tell it to.** Clicking the icon while the panel was open could leave it sitting there, so it never quite worked as a toggle. The click that should close it now closes it.
@@ -115,6 +121,7 @@ All notable changes to Mac 4 Breakfast. Format based on [Keep a Changelog](https
 ### Added
 - **Smart Alerts:** intelligent battery notifications that drop from the notch (unplug reminder, predictive low-battery, overheating).
 
+[0.3.16]: https://www.mac4breakfast.app
 [0.3.15]: https://www.mac4breakfast.app
 [0.3.14]: https://www.mac4breakfast.app
 [0.3.13]: https://www.mac4breakfast.app
