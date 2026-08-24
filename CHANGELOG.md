@@ -2,6 +2,12 @@
 
 All notable changes to Mac 4 Breakfast. Format based on [Keep a Changelog](https://keepachangelog.com/). **[⬇️ Download the latest](https://www.mac4breakfast.app)**
 
+## [0.3.17] - 2026-08-24
+### Changed
+- **Battery health now matches System Settings.** If our percentage ever read lower than the one in macOS, that gap is gone. macOS keeps two different capacity figures and we were dividing the stricter one. Both are real, they just measure differently. The headline now uses the same figure Apple does. Your number may read a little higher after this update — nothing changed in your battery, only which of the two figures we show. The stricter reading is still here, on the History tab, now called Measured Capacity, where it tracks wear more closely.
+### Added
+- **The low-battery red is now optional.** The menu bar turning red at low charge can be switched off in Settings, under Menu Bar. It also follows your own low-battery alert level now instead of a fixed 20%, so moving that slider moves the colour with it.
+
 ## [0.3.16] - 2026-08-21
 ### Changed
 - **The menu-bar panel was rebuilt from the ground up.** We replaced the system piece behind the dropdown with one we control ourselves, for better reliability going forward. If you're on the current release of macOS, nothing looks or feels different — it works exactly as it did before.
@@ -121,6 +127,7 @@ All notable changes to Mac 4 Breakfast. Format based on [Keep a Changelog](https
 ### Added
 - **Smart Alerts:** intelligent battery notifications that drop from the notch (unplug reminder, predictive low-battery, overheating).
 
+[0.3.17]: https://www.mac4breakfast.app
 [0.3.16]: https://www.mac4breakfast.app
 [0.3.15]: https://www.mac4breakfast.app
 [0.3.14]: https://www.mac4breakfast.app
