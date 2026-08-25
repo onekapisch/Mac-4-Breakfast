@@ -26,4 +26,4 @@ Every release is signed with an Apple **Developer ID** certificate, **notarized 
 
 ## Reporting a vulnerability
 
-Found a security issue? Please email **kapisch@icloud.com** with details and steps to reproduce. Please don't open a public issue for security problems. We'll acknowledge within a few days and keep you updated through the fix.
+Found a security issue? Please email **support@onekapisch.com** with details and steps to reproduce. Please don't open a public issue for security problems. We'll acknowledge within a few days and keep you updated through the fix.
