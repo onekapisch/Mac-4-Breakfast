@@ -2,6 +2,12 @@
 
 All notable changes to Mac 4 Breakfast. Format based on [Keep a Changelog](https://keepachangelog.com/). **[⬇️ Download the latest](https://www.mac4breakfast.app)**
 
+## [0.3.26] - 2026-09-26
+### Fixed
+- **A tidier Keep Awake switch.** The highlight behind Off, Screen or Lid Closed now fills the switch evenly instead of floating as a thin strip. Thank you to Bence for spotting it.
+### Added
+- **Mac 4 Breakfast on GitHub.** Settings, About now links to this repository. If you enjoy the app, a star helps other Mac users find it.
+
 ## [0.3.25] - 2026-09-24
 ### Added
 - **Low battery stays on screen until you plug in.** The warning no longer slides away after a few seconds. It shrinks into a small label under the notch, like 18% · 22m, and keeps counting down while you finish what you're doing. Point at it to see the full card, including what's draining your battery, or click it to put it away. At 5% it turns red and shows the full card once more. Plug in and it turns green, then leaves on its own. Switch it off in Power, under Low-battery warning. Thank you to viv for asking.
