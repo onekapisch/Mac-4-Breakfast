@@ -2,6 +2,10 @@
 
 All notable changes to Mac 4 Breakfast. Format based on [Keep a Changelog](https://keepachangelog.com/). **[⬇️ Download the latest](https://www.mac4breakfast.app)**
 
+## [0.3.27] - 2026-10-04
+### Fixed
+- **Battery health matches System Settings on macOS 27.** macOS 27 changed how System Settings works out a battery’s Maximum Capacity, so Mac 4 Breakfast could show a few points less than Settings did. It now reads the very figure Settings uses, so the two agree. Your battery hasn’t changed, only how it is measured. The stricter reading of your battery’s wear is still on the History tab.
+
 ## [0.3.26] - 2026-09-26
 ### Fixed
 - **A tidier Keep Awake switch.** The highlight behind Off, Screen or Lid Closed now fills the switch evenly instead of floating as a thin strip. Thank you to Bence for spotting it.
