@@ -2,6 +2,16 @@
 
 All notable changes to Mac 4 Breakfast. Format based on [Keep a Changelog](https://keepachangelog.com/). **[⬇️ Download the latest](https://www.mac4breakfast.app)**
 
+## [0.3.28] - 2026-10-23
+Four ideas from you, now in the app.
+### Added
+- **The number inside the battery.** A new menu bar style shows your charge as a number inside the battery icon, like macOS 27’s own: green while charging, red when low. With Pro, choose Number inside in Settings, Menu Bar. Thank you to Stefanos for asking.
+- **Know when charging is on hold.** When your Mac is plugged in but macOS is holding the charge, usually for Optimized Battery Charging or a charge limit, the Mac tab now says so, with a button straight to Battery settings. Thank you to Linton for asking.
+- **Let backups finish with the lid closed.** macOS already keeps your Mac awake during a Time Machine backup, but closing the lid ends it. With Pro, turn on Stay awake for Time Machine in Settings, Wide Awake: Lid Closed switches on while a backup runs and off when it’s done, with the same heat and battery limits. Thank you to Brian for the idea.
+- **Your other apps, marked.** The Studio page in Settings now marks the OneKapisch apps already on your Mac. Thank you to Raphael for asking.
+### Fixed
+- **Bluetooth battery levels in every number system.** Devices that report their level in non-Latin digits now show the right percentage.
+
 ## [0.3.27] - 2026-10-04
 ### Fixed
 - **Battery health matches System Settings on macOS 27.** macOS 27 changed how System Settings works out a battery’s Maximum Capacity, so Mac 4 Breakfast could show a few points less than Settings did. It now reads the very figure Settings uses, so the two agree. Your battery hasn’t changed, only how it is measured. The stricter reading of your battery’s wear is still on the History tab.
