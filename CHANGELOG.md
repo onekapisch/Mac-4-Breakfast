@@ -2,6 +2,18 @@
 
 All notable changes to Mac 4 Breakfast. Format based on [Keep a Changelog](https://keepachangelog.com/). **[⬇️ Download the latest](https://www.mac4breakfast.app)**
 
+## [0.3.29] - 2026-10-28
+A fresh look, and your AirPods and iPhone a step closer to your Mac.
+### Added
+- **AirPods, even on your iPhone.** With Pro, turn on AirPods on your iPhone at the bottom of the Devices tab, and Mac 4 Breakfast shows your AirPods’ battery to the percent, even while they’re connected to your iPhone. Thank you to Brian for asking.
+- **A battery widget for your desktop.** With Pro, right-click your desktop, choose Edit Widgets and add Mac 4 Breakfast. The small size shows your Mac’s charge and health; the larger one adds your iPhone and AirPods. Thank you to Brian for this one too.
+- **Device warnings that stay.** When your AirPods, iPhone or iPad run low, the warning now stays under the notch and follows the battery down until they charge. Set each device’s level with the bell on the Devices tab.
+### Changed
+- **A clearer look, health at a glance.** The panel now stays crisp on any wallpaper, in light and dark mode, with a bigger charge and a power card that takes on your battery’s state. Health, cycles and full charge sit right on the Mac tab; open the card for the rest, and it stays the way you left it. Thank you to David for asking.
+### Fixed
+- **Lifetime battery stats on macOS 27.0.1.** macOS 27.0.1 moved where it keeps your battery’s lifetime record, which left the lifetime card on the History tab, the report card’s lifetime section and the daily charging tip empty. They’re back.
+- **Sliders that keep their colour.** The sliders on the Power tab no longer turn grey when the panel isn’t the active window.
+
 ## [0.3.28] - 2026-10-23
 Four ideas from you, now in the app.
 ### Added
