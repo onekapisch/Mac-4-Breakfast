@@ -77,9 +77,15 @@ Everything stays on your Mac. **No account, no telemetry, no analytics SDK.** Th
 2. Open the `.pkg` and follow the installer; it places the app in **Applications**. It's notarized by Apple, so there's no "unidentified developer" warning.
 3. Launch **Mac 4 Breakfast** from Applications. It lives in your menu bar.
 
+**Or with [Homebrew](https://brew.sh):**
+
+```sh
+brew install --cask onekapisch/tap/mac-4-breakfast
+```
+
 **Update:** the app updates itself automatically (Sparkle), or re-download the latest from the website any time.
 
-**Uninstall:** quit the app (menu-bar icon → **Quit**), then drag **Mac 4 Breakfast** from Applications to the Trash.
+**Uninstall:** quit the app (menu-bar icon → **Quit**), then drag **Mac 4 Breakfast** from Applications to the Trash. Installed with Homebrew? `brew uninstall --cask mac-4-breakfast` (add `--zap` to remove its settings and history too).
 
 ## Roadmap & feedback
 
