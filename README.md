@@ -10,7 +10,7 @@ A native macOS menu-bar app that surfaces what macOS hides: true battery **healt
 
 [![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue?logo=apple&logoColor=white)](https://www.mac4breakfast.app)
 [![Apple silicon + Intel](https://img.shields.io/badge/Apple%20silicon%20%2B%20Intel-universal-555)](https://www.mac4breakfast.app)
-[![Free + Pro $4.99](https://img.shields.io/badge/Free%20%2B%20Pro-%244.99%20one--time-2BD46E)](https://www.mac4breakfast.app/pricing)
+[![Free + Pro $9.99](https://img.shields.io/badge/Free%20%2B%20Pro-%249.99%20one--time-2BD46E)](https://www.mac4breakfast.app/pricing)
 [![100% local, no telemetry](https://img.shields.io/badge/100%25%20local-no%20telemetry-8A6CF0)](SECURITY.md)
 [![Website](https://img.shields.io/badge/website-mac4breakfast.app-4B7BEA)](https://www.mac4breakfast.app)
 [![GitHub stars](https://img.shields.io/github/stars/onekapisch/Mac-4-Breakfast?style=social)](https://github.com/onekapisch/Mac-4-Breakfast/stargazers)
@@ -37,7 +37,7 @@ So people end up running three apps: one for health (coconutBattery), one for ch
 - ⚡ **Live power flow:** real-time wattage and voltage the moment you plug in, so you can tell if a charger or cable is actually fast.
 - 🌡️ **Temperature, done right:** battery-cell temperature with a configurable overheating threshold, so it warns you when it's *actually* hot, not at normal warmth.
 - 🔔 **Smart Alerts from the notch:** an unplug reminder at your charge target, a predictive low-battery warning that names the heaviest app, and overheating alerts that name the cause.
-- 📱 **Every Apple device:** iPhone, iPad, AirPods, Apple Watch and Magic accessories, their batteries in one place (USB, Wi-Fi, Bluetooth).
+- 📱 **Every Apple device:** iPhone, iPad, AirPods and Bluetooth mice, keyboards and trackpads, their batteries in one place (USB, Wi-Fi, Bluetooth), with an optional switch for AirPods while they're connected to your iPhone.
 - 🎛️ **The most customizable menu bar:** show any two of percentage, time, watts, temperature or health, or a Smart adaptive mode; °C or °F; gauge or glyph.
 - 📊 **Insights nobody else shows:** a shareable Battery Report Card, a lifetime analyzer, a heat-event log, and a live "what's using significant energy right now."
 
@@ -57,13 +57,13 @@ An honest look at where each app focuses. All three alternatives are good at wha
 | Live wattage & voltage | ✅ | ✅ | ✗ | ✅ |
 | True time-remaining estimate | ✅ | ✗ | ✗ | ✅ |
 | Notch Smart Alerts (unplug / low / heat) | ✅ | ✗ | ✗ | ✗ |
-| iPhone / iPad / AirPods / Watch batteries | ✅ | iOS only* | ✗ | ✗ |
+| iPhone / iPad / AirPods batteries | ✅ | iOS only* | ✗ | ✗ |
 | Hardware charge limiting (cap at 80%) | reminder, not a cap | ✗ | ✅ | ✗ |
 | Full system monitor (CPU / net / sensors) | battery-focused | ✗ | ✗ | ✅ |
 | 100% local · no account · no telemetry | ✅ | ✅ | ✅ | ✅ |
-| Price | **$4.99 one-time** + free tier | free / paid | free / Pro one-time | one-time (higher) |
+| Price | **$9.99 one-time** + free tier | free / paid | free / Pro one-time | one-time (higher) |
 
-<sub>\* coconutBattery reads a connected iOS device; Mac 4 Breakfast also covers AirPods, Apple Watch and Magic accessories. AlDente does true hardware charge-limiting via a background helper; Mac 4 Breakfast deliberately ships **no** privileged helper and instead reminds you to unplug at your target. Comparison reflects each app in mid-2026. Spot something out of date? [Open an issue](https://github.com/onekapisch/Mac-4-Breakfast/issues/new/choose).</sub>
+<sub>\* coconutBattery reads a connected iOS device; Mac 4 Breakfast also covers AirPods and Bluetooth mice, keyboards and trackpads. AlDente does true hardware charge-limiting via a background helper; Mac 4 Breakfast deliberately ships **no** privileged helper and instead reminds you to unplug at your target. Comparison reflects each app in mid-2026. Spot something out of date? [Open an issue](https://github.com/onekapisch/Mac-4-Breakfast/issues/new/choose).</sub>
 
 ## Privacy & security
 
@@ -95,7 +95,7 @@ Development is active and shaped by users: the overheating-alert overhaul in 0.2
 No. Mac 4 Breakfast is a commercial, closed-source app. This repo is its public docs, changelog and issue tracker, so the history and feedback are in the open even though the code isn't.
 
 **Why pay when coconutBattery is free?**
-coconutBattery (free) is great for an occasional deep health check, but you have to open it, and it has no Smart Alerts, no customizable menu bar, and no "what's draining it" view. Mac 4 Breakfast is the always-there, glanceable layer with alerts and insights, for a one-time $4.99 (the free tier covers the basics). Different job, not a knock on a good tool.
+coconutBattery (free) is great for an occasional deep health check, but you have to open it, and it has no Smart Alerts, no customizable menu bar, and no "what's draining it" view. Mac 4 Breakfast is the always-there, glanceable layer with alerts and insights, for a one-time $9.99 (the free tier covers the basics). Different job, not a knock on a good tool.
 
 **Why isn't it on the Mac App Store?**
 The App Store sandbox blocks the low-level IOKit/SMC access needed for cycle count, temperature and live wattage, so it's a direct, Apple-notarized download instead.
