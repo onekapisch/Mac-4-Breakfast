@@ -80,8 +80,12 @@ Everything stays on your Mac. **No account, no telemetry, no analytics SDK.** Th
 **Or with [Homebrew](https://brew.sh):**
 
 ```sh
+brew tap onekapisch/tap
+brew trust onekapisch/tap
 brew install --cask onekapisch/tap/mac-4-breakfast
 ```
+
+Homebrew 7 and later only load casks from taps you have trusted, so `brew tap` and `brew trust` are needed once.
 
 **Update:** the app updates itself automatically (Sparkle), or re-download the latest from the website any time.
 
