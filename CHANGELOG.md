@@ -2,6 +2,13 @@
 
 All notable changes to Mac 4 Breakfast. Format based on [Keep a Changelog](https://keepachangelog.com/). **[⬇️ Download the latest](https://www.mac4breakfast.app)**
 
+## [0.3.30] - 2026-11-13
+See where your battery went, and an iPhone reading you can trust.
+### Added
+- **Your battery, hour by hour.** The History tab now opens with a timeline of your charge: when it ran down, when it charged and when your Mac slept. Point at any moment to see the charge then. The last 24 hours are free; with Pro you get 7 days and the apps that used the most battery on the way down. Thank you to Bruce for asking.
+### Fixed
+- **iPhone battery you can trust.** When your iPhone or iPad stops answering over Wi-Fi, the Devices tab now says how old its reading is, and the widget and device warnings stop using it after 30 minutes. Before, an old reading could stay on screen as if it were live.
+
 ## [0.3.29] - 2026-10-28
 A fresh look, and your AirPods and iPhone a step closer to your Mac.
 ### Added
