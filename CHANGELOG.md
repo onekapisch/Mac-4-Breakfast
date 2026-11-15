@@ -2,6 +2,15 @@
 
 All notable changes to Mac 4 Breakfast. Format based on [Keep a Changelog](https://keepachangelog.com/). **[⬇️ Download the latest](https://www.mac4breakfast.app)**
 
+## [0.3.31] - 2026-11-15
+Live watts that are really live.
+### Added
+- **Menu bar watts every 2 seconds.** With Pro, when your menu bar shows watts, turn on Update watts every 2 seconds in Settings, Menu Bar. It’s off by default because it keeps reading your Mac’s power sensors while the panel is closed, which uses slightly more energy.
+### Changed
+- **Watts, second by second.** With Pro, on a Mac with Apple silicon, the watts on the Mac tab now update every second while the panel is open, read straight from your Mac’s power sensors. Before, they could be up to a minute old. Thank you to Michael for spotting it.
+### Fixed
+- **Lighter while charging.** With the panel open on the Mac tab while your Mac charged, the glowing charge line kept part of a CPU core busy, around 15 %. It looks exactly the same now and uses almost nothing.
+
 ## [0.3.30] - 2026-11-13
 See where your battery went, and an iPhone reading you can trust.
 ### Added
